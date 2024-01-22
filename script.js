@@ -18,7 +18,7 @@ let list = document.createElement('ul');
 let listItem1 = document.createElement('li');
 let listItem2 = document.createElement('li');
 listItem1.textContent =`Stargazers count: ${data.stargazers_count}`;
-listItem2.textContent =`https://github.com/Isloot98/week-1-project`;
+listItem2.textContent =`repo URL ${svn_url}`;
 
 list.appendChild(listItem1);
 
